@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+:root {
+  --cor1: 10%;
+  --cor2: 90%;
+}
+
+body{
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  padding: 15px 2rem;
+}
+
+.h1{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.results {
+  display: flex;
+  justify-content: end;
+  margin: 10px 0;
+}
+
+.pokemons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 3px solid #CCCCCC;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.pokemon-img {
+  background-color: greenyellow;
+  margin-top: 5px;
+  width: 90px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.pokemon-id {
+  background-color: greenyellow;
+  margin-top: 5px;
+  width: 90px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.pokemon-name {
+  background-color: blue;
+  margin-top: 5px;
+  width: 100%;
+  width: 90px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.pokemon-type {
+  margin-top: 5px;
+  width: 100%;
+  width: 90px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.grass-gradient {
+  background: radial-gradient(#FFFFFF var(--cor1), #98cb98 var(--cor2));
+  border: 2px solid #77af77;
+}
+.grass {
+  background-color: #98cb98;
+}
+
+.bug-gradient {
+  background: radial-gradient(#FFFFFF var(--cor1), #77ca0b var(--cor2));
+  border: 2px solid #6bb40a;
+}
+.bug {
+  background-color: #77ca0b;
+}
+
+.normal-gradient {
+  background: radial-gradient(#FFFFFF var(--cor1), #979793 var(--cor2));
+  border: 2px solid #6e6e68;
+}
+.normal {
+  background-color: #979793;
+}
+
+.poison-gradient {
+  background: radial-gradient(#FFFFFF var(--cor1), #f197ec var(--cor2));
+  border: 2px solid #c97ac5;
+}
+.poison {
+  background-color: #f197ec;
+}
+
+.fire-gradient {
+  background: radial-gradient(#FFFFFF var(--cor1), #ff0000 var(--cor2));
+  border: 2px solid #d80303;
+}
+.fire {
+  background-color: #ff0000;
+}
+
+.water-gradient {
+  background: radial-gradient(#FFFFFF var(--cor1), #3298cb var(--cor2));
+  border: 2px solid #257299;
+}
+.water {
+  background-color: #3298cb;
+}
+
+.electric-gradient {
+  background: radial-gradient(#FFFFFF var(--cor1), #ffef11 var(--cor2));
+  border: 2px solid #a79c0b;
+}
+.electric {
+  background-color: #ffef11 ;
+}
+
+.ground-gradient {
+  background: radial-gradient(#FFFFFF var(--cor1), #964B00 var(--cor2));
+  border: 2px solid #6d3803;
+}
+.ground {
+  background-color: #964B00;
+}
+
+.fairy-gradient {
+  background: radial-gradient(#FFFFFF var(--cor1), #FF007F var(--cor2));
+  border: 2px solid #c00663;
+}
+.fairy {
+  background-color: #FF007F;
+}
+
+.fighting-gradient {
+  background: radial-gradient(#FFFFFF var(--cor1), #536591 var(--cor2));
+  border: 2px solid #3b4869;
+}
+.fighting {
+  background-color: #536591;
+}
+
+.psychic-gradient {
+  background: radial-gradient(#FFFFFF var(--cor1), #2c2c2c var(--cor2));
+  border: 2px solid #000000;
+}
+.psychic {
+  background-color: #000000;
+}
+
+.ghost-gradient {
+  background: radial-gradient(#FFFFFF var(--cor1), #2c2c2c var(--cor2));
+  border: 2px solid #000000;
+}
+.ghost {
+  background-color: #000000;
+}
+
+.rock-gradient {
+  background: radial-gradient(#FFFFFF var(--cor1), #964B00 var(--cor2));
+  border: 2px solid #753b02;
+}
+.rock {
+  background-color: #964B00;
+}
+
+.ice-gradient {
+  background: radial-gradient(#FFFFFF var(--cor1), #03f0f8 var(--cor2));
+  border: 2px solid #06c2c9;
+}
+.ice {
+  background-color: #03f0f8;
+}
+
+.dragon-gradient {
+  background: radial-gradient(#FFFFFF var(--cor1), #f80303 var(--cor2));
+  border: 2px solid #d30707;
+}
+.dragon {
+  background-color: #f80303;
+}
+
+.steel-gradient {
+  background: radial-gradient(#FFFFFF var(--cor1), #c2c1c1 var(--cor2));
+  border: 2px solid #a09d9d;
+}
+.steel {
+  background-color: #c2c1c1;
+}
+
+.dark-gradient {
+  background: radial-gradient(#FFFFFF var(--cor1), #2c2c2c var(--cor2));
+  border: 2px solid #000000;
+}
+.dark {
+  background-color: #000000 ;
+}
+
+.bc-404 {
+  background-color: #3ecde0;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 25px;
+}
+
+.btn-seta {
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #FFFFFF;
+}
+
+.page {
+  padding: 0 15px;
+  font-weight: bold;
+}
